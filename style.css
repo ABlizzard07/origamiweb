@@ -1,0 +1,36 @@
+h1{
+    background-color: aquamarine;
+    color: red;
+    font-family: Verdana;
+    font-size: 400%;
+    border: 7px solid slateblue;
+    margin: 50px;
+    padding: 30px;
+}
+
+.grid{
+    background-color: cornflowerblue;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px;
+    margin: 120px;
+}
+
+h3{
+    color: brown;
+    font-family: Verdana;
+    font-size: 200%;
+    border: 4px solid rebeccapurple;
+    padding: 30px;
+    margin: 50px;
+}
+
+a:link{
+    color: sienna;
+}
+
+a:visited{
+    color: palegreen;
+}
