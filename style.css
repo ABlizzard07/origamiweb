@@ -8,6 +8,18 @@ h1{
     padding: 30px;
 }
 
+head{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+body{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+}
+
 .grid{
     background-color: cornflowerblue;
     display: flex;
@@ -15,9 +27,21 @@ h1{
     flex-direction: column;
     justify-content: center;
     padding: 100px;
-    margin: 120px;
+    margin: 50px;
 }
 
+.grid img{
+    border: 5px solid firebrick;
+    padding: 10px;
+    margin: 20px;
+}
+
+.grid li{
+    border: 5px solid firebrick;
+    background-color: plum;
+    padding: 10px;
+    margin: 20px;
+}
 h3{
     color: brown;
     font-family: Verdana;
