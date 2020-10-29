@@ -36,6 +36,10 @@ body{
     margin: 20px;
 }
 
+.grid img:hover{
+    transform: scale(1.2);
+}
+
 .grid li{
     border: 5px solid firebrick;
     background-color: plum;
